@@ -8,8 +8,17 @@ return <button onClick={onSquareClick} className='bg-white border border-gray-40
 const Board = () => {
   const [squares, setSquares] = useState(Array(9).fill(null));
   const [xIsNext, setXIsNext] = useState(true)
+
+  const winner = calculateWinner(squares)
+  let status;
+  if(winner){
+    status = `winner: ${winner}`
+  }else{
+    status = "Next Palyer  " + (xIsNext ? "x": "o")
+  }
+
   function handleClick(i){
-    if(squares[i]){
+    if(squares[i] || calculateWinner(squares)){
       return;
     }
     const newSquares = squares.slice();
@@ -23,6 +32,7 @@ const Board = () => {
   }
   return (
    <>
+   <div>{status}</div>
    <div className='flex'>
    <Square value={squares[0]} onSquareClick={() =>handleClick(0)}></Square>
    <Square value={squares[1]} onSquareClick={() =>handleClick(1)}></Square>
