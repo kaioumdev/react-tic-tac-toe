@@ -83,12 +83,12 @@ const Game = () => {
     )
   })
   return (
-    <div>
-      <div>
+    <div className='flex justify-center p-4'>
+      <div className='mr-16'>
         <Board xIsNext={xIsNext} squares={currentSquares} onPlay={handlePlay}></Board>
       </div>
       <div>
-        <ol>
+        <ol className='border border-gray-400 py-1 text-lg'>
           {moves}
         </ol>
       </div>
