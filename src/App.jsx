@@ -7,10 +7,16 @@ return <button onClick={onSquareClick} className='bg-white border border-gray-40
 
 const Board = () => {
   const [squares, setSquares] = useState(Array(9).fill(null));
+  const [xIsNext, setXIsNext] = useState(true)
   function handleClick(i){
     const newSquares = squares.slice();
-    newSquares[i] = "x"
+    if(xIsNext){
+      newSquares[i] = "x"
+    }else{
+      newSquares[i] = "o"
+    }
     setSquares(newSquares)
+    setXIsNext(!xIsNext)
   }
   return (
    <>
