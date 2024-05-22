@@ -1,28 +1,32 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-const Square = ({value}) => {
-return <button className='bg-white border border-gray-400 h-12 w-12 m-1 leading-9 text-lg'>{value}</button>
+const Square = () => {
+  const [value, setValue] = useState(null)
+  const handleClick = () => {
+    setValue("x")
+  }
+return <button onClick={handleClick} className='bg-white border border-gray-400 h-12 w-12 m-1 leading-9 text-lg'>{value}</button>
 }
 
 const Board = () => {
   return (
    <>
-   <div>
-   <Square value="1"></Square>
-   <Square value="2"></Square>
-   <Square value="3"></Square>
+   <div className='flex'>
+   <Square></Square>
+   <Square ></Square>
+   <Square></Square>
    </div>
 
-   <div>
-   <Square value="4"></Square>
-   <Square value="5"></Square>
-   <Square value="6"></Square>
+   <div className='flex'>
+   <Square ></Square>
+   <Square></Square>
+   <Square></Square>
    </div>
 
-   <div>
-   <Square value="7"></Square>
-   <Square value="18"></Square>
-   <Square value="9"></Square>
+   <div className='flex'>
+   <Square ></Square>
+   <Square ></Square>
+   <Square></Square>
    </div>
    </>
   )
