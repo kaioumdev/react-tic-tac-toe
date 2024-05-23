@@ -29,3 +29,7 @@ To run this project locally, follow these steps:
    cd tic-tac-toe-game
 
 
+1. **Install the dependencies::**
+```bash
+npm install
+
