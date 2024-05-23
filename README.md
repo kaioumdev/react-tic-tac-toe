@@ -24,5 +24,5 @@ To run this project locally, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/kaiyumdev/tic-tac-toe-game.git
+   git clone https://github.com/kaiyumdev/react-tic-tac-toe
    cd tic-tac-toe-game
