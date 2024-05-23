@@ -13,9 +13,6 @@ This is a beautiful and user-friendly implementation of the classic Tic Tac Toe 
 
 ![Screenshot of the Tic Tac Toe Game](./screenshot.png)
 
-## Live
-
-Check out the live demo [here](https://your-demo-link.com).
 
 ## Installation
 
