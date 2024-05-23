@@ -12,3 +12,17 @@ This is a beautiful and user-friendly implementation of the classic Tic Tac Toe 
 ## Screenshots
 
 ![Screenshot of the Tic Tac Toe Game](./screenshot.png)
+
+## Live
+
+Check out the live demo [here](https://your-demo-link.com).
+
+## Installation
+
+To run this project locally, follow these steps:
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/yourusername/tic-tac-toe-game.git
+   cd tic-tac-toe-game
