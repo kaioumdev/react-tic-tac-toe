@@ -83,6 +83,7 @@ const Game = () => {
     )
   })
   return (
+    <div className='bg-slate-400 h-screen'>
     <div className='flex justify-center p-4'>
       <div className='mr-16'>
         <Board xIsNext={xIsNext} squares={currentSquares} onPlay={handlePlay}></Board>
@@ -92,6 +93,7 @@ const Game = () => {
           {moves}
         </ol>
       </div>
+    </div>
     </div>
   )
 }
