@@ -16,5 +16,4 @@ This is a beautiful and user-friendly implementation of the classic Tic Tac Toe 
 
 ## Installation
 
-To run this project locally, follow these steps:
 
