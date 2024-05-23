@@ -11,7 +11,7 @@ This is a beautiful and user-friendly implementation of the classic Tic Tac Toe 
 
 ## Screenshots
 
-![Screenshot of the Tic Tac Toe Game](file:///home/kaiyum/Pictures/tic-tac-toe.png)
+![Screenshot of the Tic Tac Toe Game](https://i.ibb.co/MNM1Pnn/tic-tac-toe.png)
 
 
 ## Live
