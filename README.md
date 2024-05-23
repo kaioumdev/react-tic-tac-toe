@@ -8,3 +8,7 @@ This is a beautiful and user-friendly implementation of the classic Tic Tac Toe 
 - Visual feedback on hover and click
 - Displays the next player and winner dynamically
 - Allows users to jump to previous moves
+
+## Screenshots
+
+![Screenshot of the Tic Tac Toe Game](./screenshot.png)
