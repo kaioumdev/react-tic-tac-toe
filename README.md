@@ -28,8 +28,15 @@ To run this project locally, follow these steps:
    git clone https://github.com/kaiyumdev/react-tic-tac-toe
    cd tic-tac-toe-game
 
+2. **Install the dependencies::**
 
-1. **Install the dependencies::**
-```bash
-npm install
+   ```bash
+   npm install
+
+3. **Start the development server::**
+
+   ```bash
+   npm start
+
+
 
