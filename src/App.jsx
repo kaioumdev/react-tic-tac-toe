@@ -60,6 +60,7 @@ const Game = () => {
     setXIsNext(!xIsNext);
   };
 
+  //jumpTo Function
   const jumpTo = (move) => {
     setCurrentMove(move);
     setXIsNext(move % 2 === 0);
