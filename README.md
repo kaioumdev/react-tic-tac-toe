@@ -16,7 +16,7 @@ This is a beautiful and user-friendly implementation of the classic Tic Tac Toe 
 
 ## Live
 
-Check out the live demo [here](https://your-demo-link.com).
+Check out the live demo [here](https://react-tic-tac-tao.netlify.app/).
 
 ## Installation
 
